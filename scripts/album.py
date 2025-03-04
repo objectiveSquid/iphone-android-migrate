@@ -13,7 +13,10 @@ def main(input_dir: str) -> None:
 
         for file in album_files:
             if file in all_files:
-                os.remove(f"{input_dir}/all/{file}")
+                try:
+                    os.remove(f"{input_dir}/all/{file}")
+                except OSError:
+                    pass  # if this fails then it just means the image is in multiple albums
 
 
 if __name__ == "__main__":
