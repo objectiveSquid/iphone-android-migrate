@@ -20,10 +20,10 @@ A detailed guide to move your camera roll from iPhone to Android. Albums, edits 
       * IMG_5656.PNG
       * IMG_9090.JPG
     * albums/
-      * cats/
+      * Cats/
         * IMG_1234.JPG
         * IMG_2345.HEIC
-      * dogs/
+      * Dogs/
         * IMG_5656.PNG
         * IMG_9090.JPG
 
