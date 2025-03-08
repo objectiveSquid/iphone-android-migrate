@@ -33,10 +33,7 @@ A detailed guide to move your camera roll from iPhone to Android. Albums, edits 
 ```sh
 python3 scripts/album.py /path/to/your/DCIM
 ```
-* Install adbsync from PyPI.
-```sh
-pip install BetterADBSync
-```
+* Download the Android Debug Bridge (adb) from [here](https://developer.android.com/tools/releases/platform-tools), or most package managers.
 
 ### Android phone
 * Switch on developer options by clicking the build number in settings 7 times. Deeper explanation [here](https://developer.android.com/studio/debug/dev-options#enable).
@@ -44,9 +41,9 @@ pip install BetterADBSync
 * Connect your android phone to your computer with the cable.
 
 ### Computer
-* Run `adbsync` to copy files to the android phone, your android phone might ask for permission to use USB debugging.
+* Run `adb` to copy files to the android phone, your android phone might ask for permission to use USB debugging.
 ```sh
-adbsync push /path/to/your/DCIM /storage/emulated/0
+adb push /path/to/your/DCIM /storage/emulated/0
 ```
 
 ### Android phone
