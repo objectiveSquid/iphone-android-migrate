@@ -35,7 +35,7 @@ python3 scripts/album.py /path/to/your/DCIM
 ```
 * Install adbsync from PyPI.
 ```sh
-pip install adbsync
+pip install BetterADBSync
 ```
 
 ### Android phone
